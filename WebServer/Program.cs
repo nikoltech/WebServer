@@ -35,8 +35,7 @@ namespace WebServer
             {
                 server.Stop();
             }
-            // fdfd
-            // fdfd
+
             Console.WriteLine("Server shutting down...", Color.OrangeRed);
             Thread.Sleep(2000);
         }
