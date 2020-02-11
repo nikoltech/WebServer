@@ -18,8 +18,8 @@ namespace WebServer
             int V = 212;
             int ID = 255;
             Console.WriteAscii("Test: Web Server...", Color.FromArgb(DA, V, ID));
-                       
-            var server = new WebServer("http://*:51111/", @"C:\D\Workspace\webroot");
+            DirectoryInfo di = new DirectoryInfo(Environment.CurrentDirectory);
+            var server = new WebServer("http://*:51111/", $@"{di.FullName}\..\..\..\webroot");
             try
             {
                 server.Start();
@@ -125,6 +125,12 @@ namespace WebServer
             try
             {
                 string filename = Path.GetFileName(context.Request.RawUrl);
+
+                if (string.IsNullOrEmpty(filename))
+                {
+                    filename = "index.html";
+                }
+
                 string path = Path.Combine(this._basefolder, filename);
                 byte[] msg;
 

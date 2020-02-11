@@ -9,4 +9,8 @@
     <PackageReference Include="Colorful.Console" Version="1.2.9" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="webroot\ColorfulConsole_files\" />
+  </ItemGroup>
+
 </Project>
