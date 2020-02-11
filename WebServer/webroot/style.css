@@ -1,0 +1,461 @@
+@CHARSET "UTF-8";
+
+body, h1, h2, h3, h4, h5, h6, p, ul, dl, ol, form, fieldset, input, label, textarea, select {
+	font-family: "helvetica neue", helvetica, "lucinda sans unicode", "sans serif";
+	font-weight: normal;
+	background:#000000;
+	padding: 0;
+	border: 0;
+	margin: 0;
+	font-size: 12px;
+}
+
+@media all and (min-width: 960px) {
+#x1{
+    color: yellow;
+	font-size: 96px;
+	font-family: "consolas";
+	font-weight: normal;
+	text-align: center;
+  }
+}
+
+@media all and (max-width: 959px) and (min-width: 0px) {
+#x1{
+    color: yellow;
+	font-size: 10vw;
+	font-family: "consolas";
+	font-weight: normal;
+	text-align: center;
+  }
+}
+
+@media all and (min-width: 960px) {
+#x2{
+    color: lime;
+	font-size: 96px;
+	font-family: "consolas";
+	font-weight: normal;
+	text-align: center;
+  }
+}
+
+@media all and (max-width: 959px) and (min-width: 0px) {
+#x2{
+    color: lime;
+	font-size: 10vw;
+	font-family: "consolas";
+	font-weight: normal;
+	text-align: center;
+  }
+}
+
+@media all and (min-width: 960px) {
+#x3{
+    color: #ffff66;
+	font-size: 96px;
+	font-family: "consolas";
+	font-weight: normal;
+	text-align: center;
+  }
+}
+
+@media all and (max-width: 959px) and (min-width: 0px) {
+#x3{
+    color: #ffff66;
+	font-size: 10vw;
+	font-family: "consolas";
+	font-weight: normal;
+	text-align: center;
+  }
+}
+
+@media all and (min-width: 960px) {
+#x4{
+    color: #ffff85;
+	font-size: 96px;
+	font-family: "consolas";
+	font-weight: normal;
+	text-align: center;
+  }
+}
+
+@media all and (max-width: 959px) and (min-width: 0px) {
+#x4{
+    color: #ffff85;
+	font-size: 10vw;
+	font-family: "consolas";
+	font-weight: normal;
+	text-align: center;
+  }
+}
+
+@media all and (min-width: 960px) {
+#x5{
+    color: #ffffb2;
+	font-size: 96px;
+	font-family: "consolas";
+	font-weight: normal;
+	text-align: center;
+  }
+}
+
+@media all and (max-width: 959px) and (min-width: 0px) {
+#x5{
+    color: #ffffb2;
+	font-size: 10vw;
+	font-family: "consolas";
+	font-weight: normal;
+	text-align: center;
+  }
+}
+
+@media all and (min-width: 960px) {
+#x6{
+    color: #ff9b83;
+	font-size: 96px;
+	font-family: "consolas";
+	font-weight: normal;
+	text-align: center;
+  }
+}
+
+@media all and (max-width: 959px) and (min-width: 0px) {
+#x6{
+    color: #ff9b83;
+	font-size: 10vw;
+	font-family: "consolas";
+	font-weight: normal;
+	text-align: center;
+  }
+}
+
+@media all and (min-width: 960px) {
+#x7{
+    color: #ff7a59;
+	font-size: 96px;
+	font-family: "consolas";
+	font-weight: normal;
+	text-align: center;
+  }
+}
+
+@media all and (max-width: 959px) and (min-width: 0px) {
+#x7{
+    color: #ff7a59;
+	font-size: 10vw;
+	font-family: "consolas";
+	font-weight: normal;
+	text-align: center;
+  }
+}
+
+@media all and (min-width: 960px) {
+#x8{
+    color: #ff5930;
+	font-size: 96px;
+	font-family: "consolas";
+	font-weight: normal;
+	text-align: center;
+  }
+}
+
+@media all and (max-width: 959px) and (min-width: 0px) {
+#x8{
+    color: #ff5930;
+	font-size: 10vw;
+	font-family: "consolas";
+	font-weight: normal;
+	text-align: center;
+  }
+}
+
+@media all and (min-width: 960px) {
+#x9{
+    color: aqua;
+	font-size: 96px;
+	font-family: "consolas";
+	font-weight: normal;
+	text-align: center;
+  }
+}
+
+@media all and (max-width: 959px) and (min-width: 0px) {
+#x9{
+    color: aqua;
+	font-size: 10vw;
+	font-family: "consolas";
+	font-weight: normal;
+	text-align: center;
+  }
+}
+
+@media all and (min-width: 960px) {
+#x10{
+    color: #EE82EE;
+	font-size: 96px;
+	font-family: "consolas";
+	font-weight: normal;
+	text-align: center;
+  }
+}
+
+@media all and (max-width: 959px) and (min-width: 0px) {
+#x10{
+    color: #EE82EE;
+	font-size: 10vw;
+	font-family: "consolas";
+	font-weight: normal;
+	text-align: center;
+  }
+}
+
+@media all and (min-width: 960px) {
+#x11{
+    color: #99ffff;
+	font-size: 96px;
+	font-family: "consolas";
+	font-weight: normal;
+	text-align: center;
+  }
+}
+
+@media all and (max-width: 959px) and (min-width: 0px) {
+#x11{
+    color: #99ffff;
+	font-size: 10vw;
+	font-family: "consolas";
+	font-weight: normal;
+	text-align: center;
+  }
+}
+
+@media all and (min-width: 960px) {
+#x12{
+    color: #ccffff;
+	font-size: 96px;
+	font-family: "consolas";
+	font-weight: normal;
+	text-align: center;
+  }
+}
+
+@media all and (max-width: 959px) and (min-width: 0px) {
+#x12{
+    color: #ccffff;
+	font-size: 10vw;
+	font-family: "consolas";
+	font-weight: normal;
+	text-align: center;
+  }
+}
+
+@media all and (min-width: 960px) {
+#x13{
+    color: #e6fffa;
+	font-size: 96px;
+	font-family: "consolas";
+	font-weight: normal;
+	text-align: center;
+  }
+}
+
+@media all and (max-width: 959px) and (min-width: 0px) {
+#x13{
+    color: #e6fffa;
+	font-size: 10vw;
+	font-family: "consolas";
+	font-weight: normal;
+	text-align: center;
+  }
+}
+
+@media all and (min-width: 960px) {
+#x14{
+    color: #b2fff0;
+	font-size: 96px;
+	font-family: "consolas";
+	font-weight: normal;
+	text-align: center;
+  }
+}
+
+@media all and (max-width: 959px) and (min-width: 0px) {
+#x14{
+    color: #b2fff0;
+	font-size: 10vw;
+	font-family: "consolas";
+	font-weight: normal;
+	text-align: center;
+  }
+}
+
+@media all and (min-width: 960px) {
+#x15{
+    color: #00ffcc;
+	font-size: 96px;
+	font-family: "consolas";
+	font-weight: normal;
+	text-align: center;
+  }
+}
+
+@media all and (max-width: 959px) and (min-width: 0px) {
+#x15{
+    color: #00ffcc;
+	font-size: 10vw;
+	font-family: "consolas";
+	font-weight: normal;
+	text-align: center;
+  }
+}
+
+@media all and (min-width: 960px) {
+#xDot{
+    color: #FFC0CB;
+	font-size: 96px;
+	font-family: "consolas";
+	font-weight: normal;
+	text-align: center;
+  }
+}
+
+@media all and (max-width: 959px) and (min-width: 0px) {
+#xDot{
+    color: #FFC0CB;
+	font-size: 10vw;
+	font-family: "consolas";
+	font-weight: normal;
+	text-align: center;
+  }
+}
+
+#headArea{
+	margin: 0 auto;
+	text-align: center;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+@media all and (min-width: 960px) {
+#descriptionBody{
+    margin: 0 auto;
+	width: 70%;
+	text-align: left;
+  }
+}
+
+@media all and (max-width: 959px) and (min-width: 0px) {
+#descriptionBody{
+    margin: 0 auto;
+	width: 80%;
+	text-align: left;
+  }
+}
+
+.description{
+	color: #D3D3D3;
+	font-size: 14px;
+}
+
+.exampleDescription{
+	color: #D3D3D3;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.arrow{
+	color: #D3D3D3;
+	font-size: 24px;
+}
+
+#usageNotes{
+	color: #D3D3D3;
+	font-size: 14px;
+}
+
+.typeName{
+	color: #D3D3D3;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#links{
+	color: #D3D3D3;
+	text-align: center;
+}
+
+.link{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+a{
+	color: #FFC0CB;
+}
+
+a:hover{
+	color:#FF69B4;
+}
+
+hr {
+	height: 1px;
+	width: 80%;
+	color: #202020;
+	background-color: #202020;
+	border: none;
+}
+
+
+/* Pretty printing styles. Used with prettify.js. */
+/* Vim sunburst theme by David Leibovic */
+
+pre .str, code .str { color: #65B042; } /* string  - green */
+pre .kwd, code .kwd { color: #FFFF99; } /* keyword - dark pink */
+pre .com, code .com { color: #AEAEAE; font-style: italic; } /* comment - gray */
+pre .typ, code .typ { color: #89bdff; } /* type - light blue */
+pre .lit, code .lit { color: #3387CC; } /* literal - blue */
+pre .pun, code .pun { color: #fff; } /* punctuation - white */
+pre .pln, code .pln { color: #fff; } /* plaintext - white */
+pre .tag, code .tag { color: #89bdff; } /* html/xml tag    - light blue */
+pre .atn, code .atn { color: #bdb76b; } /* html/xml attribute name  - khaki */
+pre .atv, code .atv { color: #65B042; } /* html/xml attribute value - green */
+pre .dec, code .dec { color: #3387CC; } /* decimal - blue */
+
+pre.prettyprint, code.prettyprint {
+	background-color: #151515;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	-o-border-radius: 0px;
+	-ms-border-radius: 0px;
+	-khtml-border-radius: 0px;
+	border-radius: 0px;
+}
+
+pre.prettyprint {
+	width: 100%;
+	margin: 1em auto;
+	padding: 1em;
+	white-space: pre-wrap;
+	border: none !important;
+}
+
+/* Specify class=linenums on a pre to get line numbering */
+ol.linenums { margin-top: 0; margin-bottom: 0; color: #AEAEAE; } /* IE indents via margin-left */
+li.L0,li.L1,li.L2,li.L3,li.L5,li.L6,li.L7,li.L8 { list-style-type: none }
+/* Alternate shading for lines */
+li.L1,li.L3,li.L5,li.L7,li.L9 { }
+
+@media print {
+  pre .str, code .str { color: #060; }
+  pre .kwd, code .kwd { color: #006; font-weight: bold; }
+  pre .com, code .com { color: #600; font-style: italic; }
+  pre .typ, code .typ { color: #404; font-weight: bold; }
+  pre .lit, code .lit { color: #044; }
+  pre .pun, code .pun { color: #440; }
+  pre .pln, code .pln { color: #000; }
+  pre .tag, code .tag { color: #006; font-weight: bold; }
+  pre .atn, code .atn { color: #404; }
+  pre .atv, code .atv { color: #060; }
+}
